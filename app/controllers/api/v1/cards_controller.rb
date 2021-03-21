@@ -9,6 +9,15 @@ class Api::V1::CardsController < ApplicationController
     render json: CardSerializer.new(card)
   end
 
+  def create
+    card = Card.new(card_params)
+    if card.save
+      render json: card, status: :accepted
+    else
+      render json: { errors: card.errors.full_messages }, status: :unprocessible_entity
+    end
+  end
+
   private
 
   def card_params
