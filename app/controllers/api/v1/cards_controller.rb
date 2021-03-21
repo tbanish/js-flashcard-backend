@@ -4,6 +4,11 @@ class Api::V1::CardsController < ApplicationController
     render json: CardSerializer.new(cards)
   end
 
+  def show
+    card = Card.find_by(id: params[:id])
+    render json: CardSerializer.new(card)
+  end
+
   private
 
   def card_params
