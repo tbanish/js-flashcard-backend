@@ -29,7 +29,7 @@ A user should be able to create a new deck and add cards to each deck containing
 ## BACKEND
 ### Sprint 1: Models and Migrations
 - [x] generate models and migrations for deck and card
-- [ ] add associations to models
+- [x] add associations to models
 - [ ] create database and migrate tables
 
 ### Sprint 2: Routes, Controllers and Serializers
