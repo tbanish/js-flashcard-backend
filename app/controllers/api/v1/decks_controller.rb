@@ -29,6 +29,11 @@ class Api::V1::DecksController < ApplicationController
     end
   end
 
+  def destroy
+    deck = Deck.find_by(id: params[:id])
+    deck.destroy
+  end
+
   private
 
   def deck_params
