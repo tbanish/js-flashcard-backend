@@ -27,6 +27,7 @@ class Api::V1::CardsController < ApplicationController
     else
       render json: { errors: card.errors.full_messages }, status: :unprocessible_entity
     end
+  end
 
   private
 
