@@ -38,7 +38,7 @@ A user should be able to create a new deck and add cards to each deck containing
 - [x] generate controllers for for decks and cards
 - [ ] create routes for decks: index, show, create, update, destroy
 - [ ] create routes for cards: index, show, create, update, destroy
-- [ ] generate serializers using fast json api
+- [x] generate serializers using fast json api
 - [ ] set up both serializers with attributes
 - [ ] build controller actions for decks: index, show, create, update, destroy with strong params
 - [ ] build controller actions for cards: index, show, create, update, destroy with strong params
