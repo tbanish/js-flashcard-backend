@@ -42,4 +42,4 @@ A user should be able to create a new deck and add cards to each deck containing
 - [x] set up both serializers with attributes
 - [x] build controller actions for decks: index, show, create, update, destroy with strong params
 - [x] build controller actions for cards: index, show, create, update, destroy with strong params
-- [ ] install cors gem and uncomment cors file in config/initializers
+- [x] install cors gem and uncomment cors file in config/initializers
