@@ -18,6 +18,16 @@ class Api::V1::CardsController < ApplicationController
     end
   end
 
+  def update
+    card = Card.find_by(id: params[:id])
+    card.update(card_params)
+
+    if card.save
+      render json: card, status: :accepted
+    else
+      render json: { errors: card.errors.full_messages }, status: :unprocessible_entity
+    end
+
   private
 
   def card_params
