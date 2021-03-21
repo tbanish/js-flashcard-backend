@@ -36,10 +36,10 @@ A user should be able to create a new deck and add cards to each deck containing
 
 ### Sprint 2: Routes, Controllers and Serializers
 - [x] generate controllers for for decks and cards
-- [ ] create routes for decks: index, show, create, update, destroy
-- [ ] create routes for cards: index, show, create, update, destroy
+- [x] create routes for decks: index, show, create, update, destroy
+- [x] create routes for cards: index, show, create, update, destroy
 - [x] generate serializers using fast json api
 - [x] set up both serializers with attributes
-- [ ] build controller actions for decks: index, show, create, update, destroy with strong params
-- [ ] build controller actions for cards: index, show, create, update, destroy with strong params
+- [x] build controller actions for decks: index, show, create, update, destroy with strong params
+- [x] build controller actions for cards: index, show, create, update, destroy with strong params
 - [ ] install cors gem and uncomment cors file in config/initializers
