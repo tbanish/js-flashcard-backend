@@ -23,3 +23,21 @@ A user should be able to create a new deck and add cards to each deck containing
   - at least 3 AJAX calls, covering at least 2 of Create, Read, Update, and Delete (CRUD).
   - Your client-side JavaScript code must use fetch with the appropriate HTTP verb
   - your Rails API should use RESTful conventions.
+
+# Sprints
+
+## BACKEND
+### Sprint 1: Models and Migrations
+- [ ] generate models and migrations for deck and card
+- [ ] add associations to models
+- [ ] create database and migrate tables
+
+### Sprint 2: Routes, Controllers and Serializers
+- [ ] generate controllers for for decks and cards
+- [ ] create routes for decks: index, show, create, update, destroy
+- [ ] create routes for cards: index, show, create, update, destroy
+- [ ] generate serializers using fast json api
+- [ ] set up both serializers with attributes
+- [ ] build controller actions for decks: index, show, create, update, destroy with strong params
+- [ ] build controller actions for cards: index, show, create, update, destroy with strong params
+- [ ] install cors gem and uncomment cors file in config/initializers
