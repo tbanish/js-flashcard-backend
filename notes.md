@@ -31,6 +31,8 @@ A user should be able to create a new deck and add cards to each deck containing
 - [x] generate models and migrations for deck and card
 - [x] add associations to models
 - [ ] create database and migrate tables
+- [ ] create seed data
+- [ ] test model associations
 
 ### Sprint 2: Routes, Controllers and Serializers
 - [ ] generate controllers for for decks and cards
