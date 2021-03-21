@@ -35,7 +35,7 @@ A user should be able to create a new deck and add cards to each deck containing
 - [x] test model associations
 
 ### Sprint 2: Routes, Controllers and Serializers
-- [ ] generate controllers for for decks and cards
+- [x] generate controllers for for decks and cards
 - [ ] create routes for decks: index, show, create, update, destroy
 - [ ] create routes for cards: index, show, create, update, destroy
 - [ ] generate serializers using fast json api
