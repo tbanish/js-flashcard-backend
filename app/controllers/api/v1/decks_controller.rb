@@ -14,7 +14,7 @@ class Api::V1::DecksController < ApplicationController
     if deck.save
       render json: deck, status: :accepted
     else
-      render json: { errors: deck.errors.full_messages }, status: :unprocessible_entity
+      render json: { errors: deck.errors.full_messages }
     end
   end
 
@@ -25,7 +25,7 @@ class Api::V1::DecksController < ApplicationController
     if deck.save
       render json: deck, status: :accepted
     else
-      render json: { errors: deck.errors.full_messages }, status: :unprocessible_entity
+      render json: { errors: deck.errors.full_messages }
     end
   end
 
