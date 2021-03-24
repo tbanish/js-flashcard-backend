@@ -14,7 +14,7 @@ class Api::V1::CardsController < ApplicationController
     if card.save
       render json: card, status: :accepted
     else
-      render json: { errors: card.errors.full_messages }, status: :unprocessible_entity
+      render json: { errors: card.errors.full_messages }
     end
   end
 
@@ -25,7 +25,7 @@ class Api::V1::CardsController < ApplicationController
     if card.save
       render json: card, status: :accepted
     else
-      render json: { errors: card.errors.full_messages }, status: :unprocessible_entity
+      render json: { errors: card.errors.full_messages }
     end
   end
 
