@@ -43,3 +43,6 @@ A user should be able to create a new deck and add cards to each deck containing
 - [x] build controller actions for decks: index, show, create, update, destroy with strong params
 - [x] build controller actions for cards: index, show, create, update, destroy with strong params
 - [x] install cors gem and uncomment cors file in config/initializers
+
+### Sprint 3: Validations
+- [ ] create model validations to protect bad data from persisting to the database
