@@ -45,4 +45,4 @@ A user should be able to create a new deck and add cards to each deck containing
 - [x] install cors gem and uncomment cors file in config/initializers
 
 ### Sprint 3: Validations
-- [ ] create model validations to protect bad data from persisting to the database
+- [x] create model validations to protect bad data from persisting to the database
