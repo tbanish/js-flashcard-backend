@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a flashcard application built with a Ruby on Rails API backend and a JavaScript, HTML and CSS frontend.  The application allows the user to create decks of flashcards for study purposes.  To get the application up and running you should first clone and fork this repo, as well as the frontend repo located at https://github.com/tbanish/js-flashcard-frontend.  Both repositories should be cloned into the same parent directory.
 
-Things you may want to cover:
+To run the API:
+- cd into the backend directory
+- Run `bundle install` to intsall the necessary dependencies
+- Run `rails db:migrate` to migrate the database
+- Run `rails s` to run the rails server
 
-* Ruby version
+To run the frontend application:
+- Open the `index.html` file in your browser
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project is licensed under the terms of the MIT license.
