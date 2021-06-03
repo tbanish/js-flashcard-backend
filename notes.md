@@ -46,3 +46,33 @@ A user should be able to create a new deck and add cards to each deck containing
 
 ### Sprint 3: Validations
 - [x] create model validations to protect bad data from persisting to the database
+
+
+## Test Feature
+A user should be able to:
+- test themselves in timed session
+- keep track of right and wrong answers for each test and each card
+- start each test with a shuffled deck
+- sort wrong answers to top of deck after first test
+
+### Associations and Attributes
+## Test
+- belongs_to :deck
+- duration :integer => 75 min
+- score :float => 0.5 (score * 100 ${%})
+- correct_ids (string)=> "1, 3, 5, 7, 9"
+- incorrect_ids (string)=> "2, 4, 6, 8, 10"
+
+## Card
+- correct :integer
+- incorrect :integer
+
+## Deck
+- has_many :tests
+
+### Sprint 1: Models and Migrations
+- [ ] generate test model and migration table
+- [ ] update card attributes and migrate changes
+- [ ] add associations to test, card and deck models
+- [ ] create seed data
+- [ ] test associations
