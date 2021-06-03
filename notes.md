@@ -71,8 +71,8 @@ A user should be able to:
 - has_many :tests
 
 ### Sprint 1: Models and Migrations
-- [ ] generate test model and migration table
-- [ ] update card attributes and migrate changes
-- [ ] add associations to test, card and deck models
+- [x] generate test model and migration table
+- [x] update card attributes and migrate changes
+- [x] add associations to test, card and deck models
 - [ ] create seed data
 - [ ] test associations
