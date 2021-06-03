@@ -74,5 +74,5 @@ A user should be able to:
 - [x] generate test model and migration table
 - [x] update card attributes and migrate changes
 - [x] add associations to test, card and deck models
-- [ ] create seed data
-- [ ] test associations
+- [x] create seed data
+- [x] test associations
