@@ -17,6 +17,26 @@ this = Card.create(question: "What is 'this'?", answer: "The JavaScript this key
 scope = Card.create(question: "What is scope in JS?", answer: "Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript. The two types of scope are local and global: Global variables are those declared outside of a block. Local variables are those declared inside of a block.", deck_id: javascript.id)
 hoisting = Card.create(question: "What is hoisting?", answer: "Hoisting is JavaScript's default behavior of moving declarations to the top.", deck_id: javascript.id)
 
+js_test1 = Test.create(
+  duration: 20,
+  score: 33,
+  correct_ids: "1",
+  incorrect_ids: "2, 3",
+  deck_id: javascript.id
+)
+
+js_test2 = Test.create(
+  duration: 15,
+  score: 67,
+  correct_ids: "1, 2",
+  incorrect_ids: "3",
+  deck_id: javascript.id
+)
+
+this.update(correct_answers: 2, incorrect_answers: 0)
+scope.update(correct_answers: 2, incorrect_answers: 1)
+hoisting.update(correct_answers: 0, incorrect_answers:2)
+
 # Ruby
 self_keyword = Card.create(question: "What is 'self'?", answer: "Self is a special variable that points to the object that 'owns' the currently executing code.", deck_id: ruby.id)
 hash = Card.create(question: "What is a hash?", answer: "A Hash is a collection of key-value pairs like this: 'employee' = > 'salary'. It is similar to an Array, except that indexing is done via arbitrary keys of any object type, not an integer index.", deck_id: ruby.id)
