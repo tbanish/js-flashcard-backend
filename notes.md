@@ -76,3 +76,9 @@ A user should be able to:
 - [x] add associations to test, card and deck models
 - [x] create seed data
 - [x] test associations
+
+### Sprint 2: Routes, Controller, Serializer
+- [ ] generate controller for test
+- [ ] create routes for test: index, show, create, update, destroy
+- [ ] generate serializer for test
+- [ ] build index controller action
