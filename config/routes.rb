@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :decks, only: [:index, :show, :create, :update, :destroy]
       resources :cards, only: [:index, :show, :create, :update, :destroy]
+      resources :tests, only: [:index, :show, :create, :update, :destroy]
     end
   end
 end
