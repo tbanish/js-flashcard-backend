@@ -78,7 +78,7 @@ A user should be able to:
 - [x] test associations
 
 ### Sprint 2: Routes, Controller, Serializer
-- [ ] generate controller for test
-- [ ] create routes for test: index, show, create, update, destroy
-- [ ] generate serializer for test
-- [ ] build index controller action
+- [x] generate controller for test
+- [x] create routes for test: index, show, create, update, destroy
+- [x] generate serializer for test
+- [x] build index controller action
