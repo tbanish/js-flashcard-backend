@@ -14,28 +14,25 @@ music = Deck.create(subject: "Music Theory")
 # CARDS
 # JS
 this = Card.create(question: "What is 'this'?", answer: "The JavaScript this keyword refers to the object it belongs to.", deck_id: javascript.id)
+
 scope = Card.create(question: "What is scope in JS?", answer: "Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript. The two types of scope are local and global: Global variables are those declared outside of a block. Local variables are those declared inside of a block.", deck_id: javascript.id)
+
 hoisting = Card.create(question: "What is hoisting?", answer: "Hoisting is JavaScript's default behavior of moving declarations to the top.", deck_id: javascript.id)
 
-js_test1 = Test.create(
-  duration: 20,
-  score: 33,
-  correct_ids: "1",
-  incorrect_ids: "2, 3",
-  deck_id: javascript.id
-)
+equal = Card.create(question: "What is the difference between '==' and '===' operators?", answer: "Both are comparison operators. The difference between both the operators is that,“==” is used to compare values whereas, “ === “ is used to compare both value and types.", deck_id: javascript.id)
 
-js_test2 = Test.create(
-  duration: 15,
-  score: 67,
-  correct_ids: "1, 2",
-  incorrect_ids: "3",
-  deck_id: javascript.id
-)
+coercion = Card.create(question: "What is Implicit Type Coercion in javascript?", answer: "Implicit type coercion in javascript is automatic conversion of value from one data type to another. It takes place when the operands of an expression are of different data types.", deck_id: javascript.id)
 
-this.update(correct_answers: 2, incorrect_answers: 0)
-scope.update(correct_answers: 2, incorrect_answers: 1)
-hoisting.update(correct_answers: 0, incorrect_answers:2)
+type = Card.create(question: "Is javascript a statically typed or a dynamically typed language?", answer: "JavaScript is a dynamically typed language. In a dynamically typed language, the type of a variable is checked during run-time in contrast to statically typed language, where the type of a variable is checked during compile-time.", deck_id: javascript.id)
+
+nan = Card.create(question: "What is NaN property in JavaScript?", answer: "NaN property represents “Not-a-Number” value. It indicates a value which is not a legal number.", deck_id: javascript.id)
+
+iife = Card.create(question: "What is an Immediately Invoked Function in JavaScript?", answer: "An Immediately Invoked Function (known as IIFE and pronounced as IIFY) is a function that runs as soon as it is defined.", deck_id: javascript.id)
+
+functions = Card.create(question: "What are Higher Order Functions in javascript?", answer: "Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions. Higher order functions are a result of functions being first-class citizens in javascript.", deck_id: javascript.id)
+
+curry = Card.create(question: "What is currying in JavaScript?", answer: "Currying is an advanced technique to transform a function of arguments n, to n functions of one or less arguments.", deck_id: javascript.id)
+
 
 # Ruby
 self_keyword = Card.create(question: "What is 'self'?", answer: "Self is a special variable that points to the object that 'owns' the currently executing code.", deck_id: ruby.id)
